@@ -57,3 +57,8 @@ This project uses `SQL`, `Python3`, `Pyspark` programming languages and Amazon M
 - Circle: Charles Obuseh
 - Triangle: Iffad Anwar
 - X: Rohini Avhad
+
+
+### Presentation link:
+
+https://docs.google.com/presentation/d/1Z9RZ75dkAYALFQxT3V8_-YUyahDBbJdN7xYwa-QtpTg/edit#slide=id.gc6f9e470d_0_0
