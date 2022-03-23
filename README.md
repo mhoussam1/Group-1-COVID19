@@ -8,7 +8,7 @@ This project uses `SQL`, `Python3`, `Pyspark` programming languages and Amazon M
 
 #### Code Snippet
 
- ![code_snippet.png](https://github.com/mhoussam1/Group-1-COVID19/blob/charleside2001/images/code_snippet.png)
+
 
 * The process of extraction to saving data is orchestrated using Amazon Managed Workflows for Apache Airflow `(MWAA)` 
 * Data query is achieved using  AWS `Athena`
