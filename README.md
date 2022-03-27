@@ -1,7 +1,5 @@
 # Group-1-COVID19
 Final project- Group 1 
-# Group-1-COVID19
-Final project- Group 1 
 
 # Overview of Covid-19 Data Pipeline
 This project uses `SQL`, `Python3`, `Pyspark` programming languages and Amazon Managed Workflows for Apache Airflow `(MWAA)`, AWS `S3`, AWS `Athena`, `Tableau` or AWS `Quicksight` services to;
