@@ -31,7 +31,8 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 
 #### Code Snippet 
 
- ![code_snippet.png](https://github.com/mhoussam1/Group-1-COVID19/blob/charleside2001/images/code_snippet.png) 
+ ![Final_code_snippet](https://user-images.githubusercontent.com/92752935/160428643-4fc07fe6-ef69-4948-bbb6-6392cde6818f.png)
+ (Note: the code didn't work in my notebook but it worked fine in VS code and using command prompt.)
  
 * Write extracted data to `Kinesis data stream` using `command prompt`.
 
