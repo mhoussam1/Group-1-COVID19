@@ -56,7 +56,7 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 
 #### S3 Bucket to AWS Glue Databrew
 
- ![S3_bucket_to_AWSGlueDatabrew_data](https://user-images.githubusercontent.com/92752935/160423689-a39fcb6a-0d01-47ae-b68b-a16febe64245.png)
+ ![S3_bucket_to_AWSGlueDatabrew_data](https://user-images.githubusercontent.com/92752935/160427250-1726aa08-0425-4de2-8289-0e419a3bef93.png)
  
 
 * Processed data from `AWS Glues Databrew` is stored in the processed data `S3 bucket` 
