@@ -32,28 +32,32 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 #### Code Snippet 
 
  ![Final_code_snippet](https://user-images.githubusercontent.com/92752935/160428643-4fc07fe6-ef69-4948-bbb6-6392cde6818f.png)
+ 
  (Note: the code didn't work in my notebook but it worked fine in VS code and using command prompt.)
  
-* Write extracted data to `Kinesis data stream` using `command prompt`.
-
 #### Command Prompt 
 
  ![command_prompt_working_python_code](https://user-images.githubusercontent.com/92752935/160423037-936448a6-0660-42ca-aa97-2c28033da7fb.png)
 
+* Write extracted data to `Kinesis data stream` using `command prompt`.
+
 #### Kinesis Datastream
 
  ![kinesis_datastream_monitoring](https://user-images.githubusercontent.com/92752935/160423137-473c8b65-cf54-44b8-a84a-3dd73cb6a83b.png)
-* `Kinesis firehose` is used as data `stream delivery` for the  the `ETL` process of writing raw data to `AWS landing data S3 bucket`
+ 
+* 'Kinesis Datastreams' service is used to collect the data records in real-time.
 
 #### Kinesis Delivery Stream 
 
  ![kinesis_deliverystream_monitoring](https://user-images.githubusercontent.com/92752935/160423315-c18e35b6-0fdd-4542-9063-649bbf216927.png)
  
+* `Kinesis firehose` is used as data `stream delivery` for the  the `ETL` process of writing raw data to `landingbucketgroupone-S3 bucket`
+ 
 #### Delivery Stream To S3 Bucket 
  
  ![deliverystream_to_S3_bucket_files](https://user-images.githubusercontent.com/92752935/160423421-0b10c0bd-3575-4864-ba66-1bb61a263cfe.png)
   
-* Parse the data from `S3 landing` bucket into `AWS Glues Databrew` for processing
+* Parse the data from `landingbucketgroupone-S3 bucket` bucket into `AWS Glues Databrew` for processing.
 
 #### S3 Bucket to AWS Glue Databrew
 
@@ -70,7 +74,7 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 
  ![Processed_data_from_AWSGlueDatabrew_to S3Bucket](https://user-images.githubusercontent.com/92752935/160424098-17e75563-8ee8-42e1-b6a2-3779cd5402da.png)
  
-* Data is used for creating visualization and `ML` algorithms analysis of for real time predictions 
+* Data is used for creating visualization and `ML` algorithms analysis for real time predictions. 
 
 
 #### Sample Dataset
