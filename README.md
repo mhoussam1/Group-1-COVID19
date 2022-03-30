@@ -106,3 +106,8 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 ### Presentation link:
 
 https://docs.google.com/presentation/d/1Z9RZ75dkAYALFQxT3V8_-YUyahDBbJdN7xYwa-QtpTg/edit#slide=id.gc6f9e470d_0_0
+
+
+### Link to Tableau Story
+
+
