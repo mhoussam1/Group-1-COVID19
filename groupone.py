@@ -16,7 +16,7 @@ url = "https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com
 
 headers = {
 	"X-RapidAPI-Host": "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com",
-	"X-RapidAPI-Key": "df08c69dffmsh37a3ad2a51aedbbp11537cjsn9360828d9113"
+	"X-RapidAPI-Key": ""
 }
 response = requests.request("GET", url, headers=headers)
 mydata = response.json()
