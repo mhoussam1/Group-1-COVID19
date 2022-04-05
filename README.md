@@ -1,13 +1,13 @@
 # Group-1-COVID19
 ## Machine Learning week 1
 Much of my time was spent connecting the dataset to the actual google colab spark file.
-Setting up the data i used turned out to not have the qualifications to run a mechiene learning software.
+Setting up the data I used turned out to not have the qualifications to run a machine learning software.
 My next goal is to connect the whole data set and then use the information to predict covid spikes and their peaks.
 
 ## Machine Learning week 2 & 3
-Most of this week was spent on analysing the data and to see if it can work with a clustering model. Testing was done on a variety of the columns while non-useful data points were taken out. currently we are using "Infection_Risk", "Case_Fatality_Rate", "Recovery_Proporation", "NewCases", "NewDeaths", "NewRecovered", "ActiveCases" from our data set but these could change depending on the accurecy of your model.
+Most of this week was spent analysing the data to see if it can work with a clustering model. Testing was done on a variety of the columns while non-useful data points were taken out. currently, we are using "Infection_Risk", "Case_Fatality_Rate", "Recovery_Proporation", "NewCases", "NewDeaths", "NewRecovered", "ActiveCases" from our data set but these could change depending on the accuracy of your model.
 
-ETL was performed to give us a desired dataset using "country" as an index.
+ETL was performed to give us the desired dataset using "country" as an index.
 
 ![image1](https://github.com/mhoussam1/Group-1-COVID19/blob/main/ML_images/ETL.png)
 
@@ -28,7 +28,4 @@ Lastly a 3-d graph was created, we are still testing to see what variables work 
 
 # Conclusion
 
-We are still gauging to see how to cluster our data and what variables to focus on. We plan to plolish our model and do not need to split the data into a training set as only the values will change and not the tables and columns.
-This dataset updates by country and not individually unlike other covid datasets.
-Some of the major limitation are we have to use unsupervised lerning so it is hard to gauge accuracy. The benefits are that our question is simple and we can catagorize our data by 5-6 leavels of safety in reguard to certain countries.
-Due to the nature of countries and laws it can be tricky to be 100% accurate in reguards to safety but metrics such as "infection rate" and "Death rate" can help us better understand the answer.
+We are still gauging to see how to cluster our data and what variables to focus on. We plan to polish our model and do not need to split the data into a training set as only the values will change and not the tables and columns. This dataset updates by country and not individually unlike other covid datasets. Some of the major limitations are that we have to use unsupervised learning so it is hard to gauge accuracy. The benefits are that our question is simple and we can categorize our data by 5-6 levels of safety in certain countries. Due to the nature of countries and laws, it can be tricky to be 100% accurate in regards to safety but metrics such as "infection rate" and "Death rate" can help us better understand the answer.
