@@ -42,21 +42,21 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 * Write extracted data to `Kinesis data stream` using `command prompt`.
 
 #### Kinesis Datastream
+![datastream_monitoring_page1_20220408](https://user-images.githubusercontent.com/92752935/162487638-4d49e8fe-cb8f-4d3c-b237-ef49271ade60.png)
+![datastream_monitoring_page2_20220408png](https://user-images.githubusercontent.com/92752935/162487705-97351ce8-4163-4a80-8362-4c20f5a5f288.png)
 
- ![kinesis_datastream_monitoring](https://user-images.githubusercontent.com/92752935/160423137-473c8b65-cf54-44b8-a84a-3dd73cb6a83b.png)
- 
 * 'Kinesis Datastreams' service is used to collect the data records in real-time.
 
 #### Kinesis Delivery Stream 
-
- ![kinesis_deliverystream_monitoring](https://user-images.githubusercontent.com/92752935/160423315-c18e35b6-0fdd-4542-9063-649bbf216927.png)
+![deliverystream_monitoring_page1_20220408](https://user-images.githubusercontent.com/92752935/162487790-50c0c7e6-5aa7-4691-a3e2-6a5f470105dc.png)
+![deliverystream_monitoring_page2_20220408](https://user-images.githubusercontent.com/92752935/162487837-a3ab1692-b5ed-4b7d-903e-d2ac85fc9faa.png)
  
 * `Kinesis firehose` is used as data `stream delivery` for the  the `ETL` process of writing raw data to `landingbucketgroupone-S3 bucket`
  
 #### Delivery Stream To S3 Bucket 
  
- ![deliverystream_to_S3_bucket_files](https://user-images.githubusercontent.com/92752935/160423421-0b10c0bd-3575-4864-ba66-1bb61a263cfe.png)
-  
+![landingbucketgroupone_rawdata_stored_20220408](https://user-images.githubusercontent.com/92752935/162487964-30f824b1-480a-4481-92e6-bb244d7a1e84.png)
+ 
 * Parse the data from `landingbucketgroupone-S3 bucket` bucket into `AWS Glues Databrew` for processing.
 
 #### S3 Bucket to AWS Glue Databrew
@@ -72,8 +72,8 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 
 #### Processed Job to S3 Destination 
 
- ![Processed_data_from_AWSGlueDatabrew_to S3Bucket](https://user-images.githubusercontent.com/92752935/160424098-17e75563-8ee8-42e1-b6a2-3779cd5402da.png)
- 
+ ![processed_data_stored_20220408](https://user-images.githubusercontent.com/92752935/162488125-a9d0d32c-dd28-4865-9d89-c55ac8acb5a8.png)
+
 * Data is used for creating visualization and `ML` algorithms analysis for real time predictions. 
 
 
