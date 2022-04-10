@@ -1,5 +1,6 @@
 # Group-1-COVID19
-Final project- Group 1 
+
+![banner-interior2](https://user-images.githubusercontent.com/93894964/162599648-c70dd655-9fad-4cdc-b02c-444de00cf040.jpeg)
 
 # Overview of Covid-19 Data Pipeline and Analysis
 This project uses  `Python Pandas`  programming language,  Amazon `Kinesis Data Stream`  and `kinesis Firehose`,  AWS `S3` Bucket , AWS `Glue Databrew`, `Tableau` or AWS `Quicksight` services to extract, process/transform and load streaming data from `APIs` into AWS `S3` bucket storage. 
