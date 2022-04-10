@@ -1,4 +1,7 @@
 # Group-1-COVID19
+
+![banner-interior2](https://user-images.githubusercontent.com/93894964/162599648-c70dd655-9fad-4cdc-b02c-444de00cf040.jpeg)
+
 Final project- Group 1 
 
 # Overview of Covid-19 Data Pipeline and Analysis
