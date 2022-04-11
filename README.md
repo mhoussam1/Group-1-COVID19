@@ -131,6 +131,7 @@ Lastly a 3-d graph was created, we are still testing to see what variables work 
 We are still gauging to see how to cluster our data and what variables to focus on. We plan to polish our model and do not need to split the data into a training set as only the values will change and not the tables and columns. This dataset updates by country and not individually unlike other covid datasets. Some of the major limitations are that we have to use unsupervised learning so it is hard to gauge accuracy. The benefits are that our question is simple and we can categorize our data by 5-6 levels of safety in certain countries. Due to the nature of countries and laws, it can be tricky to be 100% accurate in regards to safety but metrics such as "infection rate" and "Death rate" can help us better understand the answer.
 
 
+## Recommendation for future analysis:
 
 
 
