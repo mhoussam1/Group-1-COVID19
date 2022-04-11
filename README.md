@@ -9,24 +9,31 @@ This project uses  `Python Pandas`  programming language,  Amazon `Kinesis Data 
 The extracted Covid dataset is used for creating visualization and `ML` algorithms analysis of for real time predictions
 
 ## Covid-19 Guiding Questions
-*1*  What are the trends in the data regarding testing and/or availability by Countries?
+- What are the trends in the data in specific countries?
+- What are the overall global trends?
+- Is it safe to travel to specific countries, due to covid?
 
-*2* What are the overall global trends?
 
-*3*  Based on the COVID 19 results, what conclusion can be drawn concerning testing and tests availability?
 
-*4*   Is it safe to travel to specific countries, due to covid? 
 
 #### Null hypothesis: 
 * All countries are equal when it comes to traveling. 
 
+
+## Reasons why we selected this topic:
+
+
+
 #### Focus areas:
-* New confirmed cases
-* New deaths
-* New recovered
-* Total confirmed
-* Total death
-* Total recovered
+
+- Case Fatality Rate 
+- Infection Risk
+- New Cases
+- Recovery Proporation
+- Total Cases 
+- Total Deaths 
+- Total Recovered 
+
 
 
 ## Process Overview 
