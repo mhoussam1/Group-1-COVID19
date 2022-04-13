@@ -22,7 +22,8 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 
 ## Reasons why we selected this topic:
 
-
+- To help people make better decisions to traveling to other countries 
+- COVID-19 is affecting our lives on a daily basis. 
 
 #### Focus areas:
 
