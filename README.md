@@ -160,4 +160,4 @@ https://docs.google.com/presentation/d/1Z9RZ75dkAYALFQxT3V8_-YUyahDBbJdN7xYwa-Qt
 
 ### Link to Tableau Story
 
-
+https://public.tableau.com/app/profile/muhammad.mobied/viz/COVID19_16498896311670/Story1?publish=yes
