@@ -129,17 +129,16 @@ Lastly a 3-d graph was created, we are still testing to see what variables work 
 
 # Conclusion
 
-Creating a clustring dataset was our solution to categorizing countries into "covid-19 danger levels". The dataset we used updates datapoints clustered into countries and not individually unlike other covid datasets which allowed us to better display our results. 
-- Some of the major limitations are that we used unsupervised learning so it is hard to gauge accuracy of our model. 
-- The benefits of using this clustring model is that is simplifies the results for the user by giving a "danger level" instead of an abetrary list.
-- Another benefit is that it reduces error as compared to a ranked list.
-- Due to the nature of countries and laws, it can be tricky to be 100% accurate in regards to safety but metrics such as "infection rate" and "Death rate" can help us better understand the answer.
+Creating a clustering dataset was our solution to categorizing countries into "COVID-19 danger levels". The dataset we used updates datapoints clustered into countries, unlike other covid datasets which allowed us to better display our results. 
+- The benefit of using this clustering model is that it simplifies the results for the user by giving a "danger level" category instead of an arbitrary list.
+- Another benefit is that it reduces error as compared to a ranked list as that could require an individual analysis for each.
+- Some of the major limitations are that we used unsupervised learning so it is hard to gauge the accuracy of our model. 
+- Due to the nature of countries, their healthcare systems and laws, it can be tricky to be accurate in regards to safety but metrics such as "infection rate" and "Death rate" can help us better understand the answer.
 
 ## Recommendation for future analysis
-
-- Comparing this dataset to other data scources is vital in determining the accuracy of our data.
-- Comparing our clusting model to other K value models to better determine the accuracy of our model. 
-- Incporpating other data scources such as healthcare viability woul;d give us a fuller picutre and create a more accurate clustring system.
+- Comparing this dataset to other data sources is vital in determining the accuracy of our data.
+- to better determine the accuracy of our model we need to compare it with other k-type clustering models. 
+- Incorporating other data sources such as healthcare viability would give us a fuller picture and create a more accurate clustering system.
 
 ## Communication Protocols
 
@@ -150,7 +149,7 @@ Creating a clustring dataset was our solution to categorizing countries into "co
 
 - Square: Muhammad Mobied 
 - Circle: Charles Obuseh
-- Triangle: Iffad Anwar
+- Triangle: Syed Iffad Anwar
 - X: Rohini Avhad
 
 
