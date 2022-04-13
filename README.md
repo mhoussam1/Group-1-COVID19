@@ -99,13 +99,8 @@ The extracted Covid dataset is used for creating visualization and `ML` algorith
 * Only pipeline monitoring and maintenance needs to be taken care of once the pipeline is built.
 * Grabbing the data from source `APIs`to destination systems AWS `S3` bucket for real time streaming data
 
-## Machine Learning week 1
-Much of our time was spent connecting the dataset to the actual google colab spark file.
-Setting up the data I used turned out to not have the qualifications to run a machine learning software.
-Our next goal is to connect the whole data set and then use the information to predict covid spikes and their peaks.
-
-## Machine Learning week 2 & 3
-Most of this week was spent analysing the data to see if it can work with a clustering model. Testing was done on a variety of the columns while non-useful data points were taken out. currently, we are using "Infection_Risk", "Case_Fatality_Rate", "Recovery_Proporation", "NewCases", "NewDeaths", "NewRecovered", "ActiveCases" from our data set but these could change depending on the accuracy of your model.
+## Machine Learning Aspect
+The primary question we strived to answer was "Is it safe to travel to a certain country?". We decided to use a database that already clusters crucial data points by country. Opting for an unsupervised clustering model, we felt k-mean was a reliable way to categorize data into "safety levels" where each nation will fall into 5 to 6 clusters. Testing was done on a variety of columns and we favoured data points that reflect current events and trends. Data points such as "totalDeaths" and "totalInfection" reflect dated data that could be 2 years old potentially skewing our results. We have decided to use "Infection_Risk", "Case_Fatality_Rate", "Recovery_Proporation", "NewCases", "NewDeaths", "NewRecovered", "ActiveCases", "Serious_Critical" from our data set as it portrays a more current view of the pandemic.
 
 ETL was performed to give us the desired dataset using "country" as an index.
 
@@ -128,12 +123,16 @@ Lastly a 3-d graph was created, we are still testing to see what variables work 
 
 # Conclusion
 
-We are still gauging to see how to cluster our data and what variables to focus on. We plan to polish our model and do not need to split the data into a training set as only the values will change and not the tables and columns. This dataset updates by country and not individually unlike other covid datasets. Some of the major limitations are that we have to use unsupervised learning so it is hard to gauge accuracy. The benefits are that our question is simple and we can categorize our data by 5-6 levels of safety in certain countries. Due to the nature of countries and laws, it can be tricky to be 100% accurate in regards to safety but metrics such as "infection rate" and "Death rate" can help us better understand the answer.
+Creating a clustring dataset was our solution to categorizing countries into "covid-19 danger levels". The dataset we used updates datapoints clustered into countries and not individually unlike other covid datasets which allowed us to better display our results. 
+- Some of the major limitations are that we used unsupervised learning so it is hard to gauge accuracy of our model. 
+- The benefits of using this clustring model is that is simplifies the results for the user by giving a "danger level" instead of an abetrary list.
+- Another benefit is that it reduces error as compared to a ranked list.
+- Due to the nature of countries and laws, it can be tricky to be 100% accurate in regards to safety but metrics such as "infection rate" and "Death rate" can help us better understand the answer.
 
-
-## Recommendation for future analysis:
-
-
+## Recommendation for future analysis
+- Comparing this dataset to other data scources is vital in determining the accuracy of our data.
+- Comparing our clusting model to other K value models to better determine the accuracy of our model. 
+- Incporpating other data scources such as healthcare viability woul;d give us a fuller picutre and create a more accurate clustring system.
 
 ## Communication Protocols
 
