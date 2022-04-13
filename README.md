@@ -107,18 +107,23 @@ ETL was performed to give us the desired dataset using "country" as an index.
 ![image1](https://github.com/mhoussam1/Group-1-COVID19/blob/main/ML_images/ETL.png)
 
 PCA was performed giving 3 principle component factors.
+
 ![image2](https://github.com/mhoussam1/Group-1-COVID19/blob/main/ML_images/PC1-3.png)
 
 An elbow graph was then developed allowing us to narrow the numbers of clusters to 5 or 6.
+
 ![image3](https://github.com/mhoussam1/Group-1-COVID19/blob/main/ML_images/elbow.png)
 
 Clustering was done on multiple different version dates of the data to better guage our accuracy. Both 5 and6 clusters were performed on both.
+
 ![image4](https://github.com/mhoussam1/Group-1-COVID19/blob/main/ML_images/clustering.png)
 
 Multiple scatter plots were created much like the one below comparing different aspects of the data. We have decided to use Infection_Risk as a y values as it does a good job answering our question "is it safe to travel to a particular country"
+
 ![image5](https://github.com/mhoussam1/Group-1-COVID19/blob/main/ML_images/scatter.ong.png)
 
 Lastly a 3-d graph was created, we are still testing to see what variables work best.
+
 ![image6](https://github.com/mhoussam1/Group-1-COVID19/blob/main/ML_images/3_d.png)
 
 # Conclusion
@@ -130,6 +135,7 @@ Creating a clustring dataset was our solution to categorizing countries into "co
 - Due to the nature of countries and laws, it can be tricky to be 100% accurate in regards to safety but metrics such as "infection rate" and "Death rate" can help us better understand the answer.
 
 ## Recommendation for future analysis
+
 - Comparing this dataset to other data scources is vital in determining the accuracy of our data.
 - Comparing our clusting model to other K value models to better determine the accuracy of our model. 
 - Incporpating other data scources such as healthcare viability woul;d give us a fuller picutre and create a more accurate clustring system.
