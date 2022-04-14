@@ -142,12 +142,14 @@ Creating a clustering dataset was our solution to categorizing countries into "C
 
 ## Recommendation for future analysis
 - Comparing this dataset to other data sources is vital in determining the accuracy of our data.
-- to better determine the accuracy of our model we need to compare it with other k-type clustering models. 
+- To better determine the accuracy of our model we need to compare it with other k-type clustering models. 
 - Incorporating other data sources such as healthcare viability would give us a fuller picture and create a more accurate clustering system.
+- Perform the analysis throught a further spread of time.
 
 ## Communication Protocols
 
 - In order to keep updated on the status of each of our parts of the project, we message each other regularly through Slack and organized regular zoom meetings.
+- meeting every Friday and Sunday
 
 
 ## Team roles:
